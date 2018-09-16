@@ -1,0 +1,15 @@
+<archetype>
+  <id>adalrsjr1-archetype</id>
+  <sources>
+    <source>src/main/java/App.groovy</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/application.properties</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/AppTest.groovy</source>
+  </testSources>
+  <testResources>
+    <resource>src/test/resources/application.properties</resource>
+  </testResources>
+</archetype>

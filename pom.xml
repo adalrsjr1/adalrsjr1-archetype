@@ -5,5 +5,5 @@
   <artifactId>adalrsjr1-archetype</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - adalrsjr1-archetype</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/adalrsjr1/adalrsjr1-archetype</url>
 </project>

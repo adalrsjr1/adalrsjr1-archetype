@@ -2,6 +2,11 @@
   <id>adalrsjr1-archetype</id>
   <sources>
     <source>src/main/java/App.groovy</source>
+    <source>src/main/java/tracing/AopTracing.groovy</source>
+    <source>src/main/java/tracing/TrackInput.groovy</source>
+    <source>src/main/java/tracing/TrackOutput.groovy</source>
+    <source>src/main/java/tracing/TrackInputOutput.groovy</source>
+    <source>src/main/java/tracing/TrackTime.groovy</source>
   </sources>
   <resources>
     <resource>src/main/resources/application.properties</resource>

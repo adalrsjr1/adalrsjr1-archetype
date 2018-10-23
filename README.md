@@ -23,15 +23,15 @@ mvn archetype:generate \
 
 ### Running Project
 
--. `mvn clean install spring-boot:repackage`
+- `mvn clean install spring-boot:repackage`
 
--. `mvn clean spring-boot:run`
+- `mvn clean spring-boot:run`
 
--. `mvn clean test`
+- `mvn clean test`
 
 
 ## Known Issues
 
-1. Only public methods are thracked down by AOP tracing
+1. AOP tracing tracks down only public methods
 2. The first run must be `mvn clean spring-boot:run` even if using eclipse. From 2nd run onwards, it is possible to run by using eclipse
 3. When into eclipse, the project must be run by using mvn when a change is made on `*.tracing` package
